@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function naranja(){
+        let nombre = document.getElementById("nombre").value;
+        alert("Bienvenido " + nombre + ". Envienos un e-mail y contactaremos con usted")
+    }
+    </script>
+    <div class="titulo">
+        <h1>NARANJAS LA RIBERA</h1>
+    </div>
+
+    <div class="menu">
+        <a href="./index.html"><button>Naranjas</button></a>
+        <pre>  </pre>
+        <a href=""><button>Limones</button></a>
+        <pre>  </pre>
+        <a href="./cajas.html"><button>Cajas de fruta</button></a>
+        <pre>  </pre>
+        <a href="./nosotros.html"><button>Nosotros</button></a>
+    </div>
+    <div class="padding">
+
+    </div>
+    <div class="cajas">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3097.1388575164015!2d-0.5941903742681761!3d39.0805347358779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61a74551bca421%3A0xfbd26b6289fbdafa!2s46266%20Antella%2C%20Valencia!5e0!3m2!1ses!2ses!4v1740660164903!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="form">
+    <form onsubmit="naranja(); return false">
+        <p>Nuestra familia tiene una larga historia en Antella, cuna de la naranja de Valencia. Desde 1870
+            nuestra familia está afincada en esta localidad valenciana que por sus condiciones
+            climatológicas y ambientales favorece la producción de naranjas y mandarinas de calidad, con
+            gran sabor y aroma.
+        </p>
+        <br>
+    <p class="textform">Nombre y apellidos <input type="text" size="40" name="nombre" id="nombre"></p>
+    <p class="textform">email <input type="email" name="mail" id="mail"></p>
+    <p class="textform">Producto
+        Naranjas <input type="radio" name="pro" id="pro">
+        Limones <input type="radio" name="pro" id="pro">
+    </p>
+    <input type="submit" name="Enviar">
+    <input type="reset" name="Restablecer">
+    </form>
+</div>
+</div>
+<div class="padding">
+
+</div>
+    <footer>
+        El Grao Developers . HTML & CSS.
+    </footer>
+</body>
+</html>
